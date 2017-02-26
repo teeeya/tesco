@@ -1,0 +1,33 @@
+{
+  "name": "tesco",
+  "version": "1.0.0",
+  "description": "webdriver/selenium, cucumber, chai tests for tesco.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teeeya/tesco.git"
+  },
+  "keywords": [
+    "automated",
+    "tests"
+  ],
+  "author": "Tiya Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teeeya/tesco/issues"
+  },
+  "homepage": "https://github.com/teeeya/tesco#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^1.3.1",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "wdio-spec-reporter": "0.0.5",
+    "webdriverio": "^4.6.2"
+  },
+  "devDependencies": {
+    "wdio-cucumber-framework": "^0.2.15"
+  }
+}
