@@ -1,7 +1,3 @@
-//Removed required from here into wdio.conf.
-//const chai = require('chai');
-//let expect = chai.expect;
-//let assert = chai.assert;
 const credentials = require('../../credentials/tesco_credentials.json');
 const loginPage = require ('../pages/loginPage.page')
 module.exports = function() {

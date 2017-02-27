@@ -1,8 +1,3 @@
-//Removed required modules from here into wdio.conf.
-//const chai = require('chai');
-//let expect = chai.expect;
-//let assert = chai.assert;
-
 const homepage = require ('../pages/homepage.page')
 module.exports = function() {
   this.Given(/I open the homepage for Tesco/, function () {
