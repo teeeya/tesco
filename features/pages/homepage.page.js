@@ -6,7 +6,7 @@ class Homepage extends Page {
         super.open('http://www.tesco.com');
     }
     wait(){
-    	browser.waitForVisible(".logo");
+    	browser.waitForVisible(".logo", 5000);
     }
     getTitleBox(){ 
     	this.wait();
