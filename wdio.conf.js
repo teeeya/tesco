@@ -161,6 +161,7 @@ exports.config = {
      const chai = require('chai');
      expect = chai.expect;
      assert = chai.assert;
+     include = chai.include;
      },
     //
     // Hook that gets executed before the suite starts

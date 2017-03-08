@@ -3,7 +3,7 @@ const loginPage = require ('../pages/loginPage.page')
 module.exports = function() {
   this.When(/I want to click on "Groceries"/, function() {
     loginPage.clickGroceries();
-    assert.equal(browser.getUrl(), "http://www.tesco.com/groceries/", "Assert user is navigated to new page")
+    assert.include(browser.getUrl(), "https://www.tesco.com/groceries/", "Assert user is navigated to new page")
   });
   this.When(/click on sign in/, function(){ 
     loginPage.clickSignIn();
